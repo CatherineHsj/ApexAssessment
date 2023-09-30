@@ -1,0 +1,115 @@
+.search-input, .select {
+  background-color: white;
+  color: #333;
+}
+
+.search-input .anticon-search svg,
+.search-input input::placeholder,
+.select .ant-select-selection-item,
+.select .ant-select-selection-placeholder,
+.ant-select-dropdown .ant-select-item-option-active .ant-select-item-option-content {
+  color: inherit;
+}
+
+.box-with-shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-input-light {
+  @extend .search-input;
+  color: white;
+}
+
+.search-input-light .anticon-search svg {
+  fill: black;
+}
+
+.search-input-light input::placeholder {
+  color: #ccc;
+}
+
+.search-input-dark,
+.search-input-dark input {
+  background-color: #202C36;
+  color: white;
+}
+
+.search-input-dark .ant-input::placeholder,
+.search-input-dark .anticon-search svg,
+.search-input-dark input::placeholder {
+  fill: white;
+  color: white;
+}
+
+.select-dark,
+.select-dark .ant-select-selector {
+  background: #202C36 !important;
+  color: white;
+}
+
+.select-dark .ant-select-selection-placeholder,
+.select-dark .ant-select-selection-item,
+.select-dark .ant-select-item-option,
+.ant-select-dropdown .ant-select-item-option-active,
+.ant-select-dropdown .ant-select-item-option-active .ant-select-item-option-content {
+  color: white !important;
+}
+
+.select-dark .ant-select-dropdown,
+.select-dark .ant-select-dropdown-placement-topLeft,
+.select-dark .ant-select-dropdown-placement-bottomRight,
+.select-dark .ant-select-dropdown .ant-select-dropdown-placement-bottomLeft {
+  background-color: #202C36 !important;
+}
+
+.select-dark.ant-select .ant-select-arrow::after {
+  border-top-color: white !important;
+}
+
+.select-dark .ant-select-item-option {
+  background-color: #202C36;
+  color: white;
+}
+
+.select-dark .ant-select-dropdown .ant-select-dropdown-placement-bottomLeft {
+  background-color: #202C36 !important;
+}
+
+.select-dark.ant-select-item-option {
+  color: white;
+}
+
+.select-dark.ant-select-item-option-selected {
+  background-color: darkgrey !important;
+}
+
+.select-dark.ant-select-item-option:hover {
+  background-color: darkgrey !important;
+}
+
+.select-light.ant-select-item-option:hover {
+  background-color: grey;
+}
+
+.select-light.ant-select-item-option-selected {
+  color: black;
+  background-color: lightgrey !important;
+}
+
+.light-button {
+  background: transparent;
+  border: 1px solid #000;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+.dark-button {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  transition: border-color 0.3s ease;
+}
+
+.dark-button:hover {
+  border-color: #007bff;
+}
